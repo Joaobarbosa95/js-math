@@ -17,10 +17,8 @@ function main() {
         ctx.arc(v.getX(), v.getY(), 10, 0, Math.PI * 2)
         ctx.fill()
     
-        v.add(v1)
+        v.addTo(v1)
 
         requestAnimationFrame(move)
     }
-
-    
 }
